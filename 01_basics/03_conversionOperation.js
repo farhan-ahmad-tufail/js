@@ -26,6 +26,10 @@ console.log(boolenaIsLogginIn)
 
 
 
+let num = 44
+let strNumber = String(num)
+console.log(typeof strNumber);
+
 
 
 
