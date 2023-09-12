@@ -43,3 +43,37 @@ console.log(typeof anotherId);
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+//**************************************Stack and Heap *******************************************
+
+
+//stack memory (Premitive DatavTypes) =>copy hoga
+//Heap memory (Non - Premitive Data Types)
+
+let myName = "Farhan"
+let anotherName = myName
+anotherName = "Farhan Ahmad Tufail"
+
+console.log(myName);
+console.log(anotherName);
+
+
+
+//heap memory => reference hoga 
+let userOne = {
+    email : "userOne@google.com",
+    upi : "user1@ibl"
+}
+
+let userTwo =userOne
+
+userTwo.email = "farhan@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+//here , in heap memory both user email is Changed 
+//as ther are referencing to the same memory
