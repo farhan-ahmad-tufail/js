@@ -1,4 +1,4 @@
-const accountId =12434  //it is constant 
+const accountId = 12434   
 
 //variable declarations are of two types
 let accountEmail ="contact.farhanahmad@gmail.com"
@@ -8,7 +8,7 @@ var accountPassword ="123214"
 accountCity ="Jaipur" //not good way to define variables
 let accountState
 
-//account = 2 // Not allowed as it is contant
+//accountId = 2 // Not allowed as it is constant
 
 accountEmail ="farhan@f.com"
 accountPassword ="432324"
