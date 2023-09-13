@@ -25,10 +25,12 @@ const hundreds = 1000000
 // console.log(Math.max(4, 3, 6, 8));
 
 console.log(Math.random());
-console.log((Math.random()*10) + 1);
-console.log(Math.floor(Math.random()*10) + 1);
+console.log((Math.random()*10) + 1);    //always greater than 1
+console.log(Math.floor(Math.random() * 10) + 1); //!decimals
+
+//if we have to define between 2 numbers min and max
 
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+console.log(Math.floor(Math.random() * (max - min + 1)) + min) 
